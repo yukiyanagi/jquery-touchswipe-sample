@@ -10,7 +10,6 @@ class IndexPage {
   }
   setParameter() {
     this.$target = $('html, body');
-    this.$target.swipe({figers: 2});
   }
   bindEvent() {
     this.$target.swipe({
